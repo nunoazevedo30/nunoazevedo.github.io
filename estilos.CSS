@@ -1,0 +1,199 @@
+  /* Container do formulário */
+  .form-container {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      width: 100%;
+      max-width: 500px;
+  }
+  
+  /* Título do formulário */
+  h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 50px;
+  }
+  
+  /* Estilo para os rótulos (labels) */
+  label {
+      font-weight: bold;
+      margin-top: 10px;
+      display: block;
+  }
+  
+  /* Estilo para os campos de entrada (input e textarea) */
+  input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+  }
+  
+  /* Estilo para o botão de envio */
+  input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+      border: none;
+      padding: 15px;
+      font-size: 18px;
+      border-radius: 4px;
+      margin-top: 20px;
+      width: 100%;
+  }
+  
+  /* Efeito de hover no botão de envio */
+  input[type="submit"]:hover {
+      background-color: #45a049;
+  }
+  
+/* Estilos principais para a container de produtos */
+.imagem-container {
+  display: flex;
+  justify-content: space-between; /* Espaça os produtos igualmente */
+  gap: 20px;  /* Espaçamento entre as colunas de produtos */
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+/* Estilos para cada produto (imagem + botão) */
+.produto {
+  text-align: center;  /* Centraliza a imagem e o botão dentro da coluna */
+  flex-basis: 45%;            /* Controla a largura do produto, ajusta conforme o espaço disponível */
+  box-sizing: border-box;     /* Garante que o padding não afete o tamanho */
+}
+
+/* Estilos das imagens */
+.produto img {
+  width: 100px;  /* Tamanho das imagens */
+  height: auto;  /* Mantém a proporção */
+  display: block;  /* Remove o espaço extra abaixo da imagem */
+  margin-bottom: 10px;  /* Espaçamento entre a imagem e o botão */
+  margin: auto;
+}
+
+/* Estilos do botão de compra */
+.butão-comprar {
+  padding: 10px 20px;  /* Tamanho do botão */
+  background-color: #4CAF50;  /* Cor de fundo */
+  color: white;  /* Cor do texto */
+  border: none;  /* Remove bordas padrão */
+  cursor: pointer;  /* Mostra o ponteiro do mouse ao passar por cima */
+  font-size: 16px;
+  border-radius: 5px;  /* Bordas arredondadas */
+  transition: background-color 0.3s ease;  /* Animação de transição */
+}
+
+.container p { font-size:20px ; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Abanda{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+#imagem2, #imagem3 {
+
+  width: 30%;
+  height: auto;
+  padding-bottom: 1cm ;
+}
+
+.sobreabanda{
+
+  width: auto;
+  
+  border: 1px solid;
+  padding: auto;
+}
+
+/* Estilização do contêiner principal */
+.calendar-container {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.calendar {
+    width: 100%;
+}
+
+.calendar-header {
+    margin-bottom: 10px;
+}
+
+.month-name {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Grid do calendário */
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 5px;
+}
+
+/* Estilizando os nomes dos dias da semana */
+.day-name {
+    font-weight: bold;
+    padding: 5px;
+    background-color: #ddd;
+}
+
+/* Estilizando os dias do mês */
+.day {
+    position: relative;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    height: 70px;
+    box-sizing: border-box;
+}
+
+.day span {
+    display: block;
+    font-size: 1.1em;
+}
+
+.event {
+    background-color: #ff6347;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 0.9em;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    text-align: center;
+}
+
+/* Efeito ao passar o mouse sobre o dia */
+.day:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.day .event:hover {
+    background-color: #e53e3e;
+}
+
+/* Estilos para o rodapé (footer) */
+.footer {
+  background-color: #333; /* Cor de fundo escura */
+  color: #fff; /* Cor do texto branca */
+  text-align: center; /* Centraliza o texto */
+  padding: 20px 0; /* Espaçamento interno (em cima e embaixo) */
+  position: relative;
+  bottom: 0;
+  width: 100%; /* Faz o rodapé ocupar toda a largura da página */
+  box-sizing: border-box; /* Garantir que o padding não afete a largura */
+}
